@@ -719,7 +719,7 @@ footer {
 		justify-content: center;
 		margin-left: auto;
 		margin-right: auto;
-		width: auto;
+		width: 100%;
 	}
 
 	body{
@@ -733,10 +733,7 @@ footer {
 		height: auto;
 		position: relative;
 		justify-content: center;
-		padding-bottom: 5%;
-		padding-top: 0%;
-		padding-left: 0%;
-		padding-right: 0%;
+		padding: 0% 0% 5% 0%;
 	}
 
 	.logo {
@@ -794,6 +791,9 @@ footer {
 	}
 
 	#titles{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 		flex-direction: row;
 		display: flex;
 		flex-wrap: wrap;
@@ -801,20 +801,20 @@ footer {
 	}
 
 	h1{
-		margin: 0px;
+		width: 100%;
+		margin-left: 15px;
 		line-height: 90%;
-		width: 95%;
+		padding-bottom: auto;
 	}
 
 	h2{
-		padding-top: 5%;
-		margin: 0;
-		width: 95%;
-	}
+		margin-left: 15px;
+		line-height: 50px;
+		}
 	
 	main{
 		flex-direction: column;
-		width: 95%;
+		width: 100%;
 		position: relative;
 		justify-content: center;
 		margin-left: auto;
@@ -826,7 +826,9 @@ footer {
 		position: relative;
 		flex-wrap: wrap;
 		justify-content: center;
-		width: 99%;
+		width: 97%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	#searchbar{
@@ -845,7 +847,7 @@ footer {
 	}
 	
 	#textarea {
-		width: 73%; 
+		width: 74%; 
 	}
 	
 	button{
@@ -864,25 +866,27 @@ footer {
 	h3{
 		width: 100%;
 		text-align: left;
+		margin-left: 15px;
 	}
 
 	article.filters {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
-		Width: 95%;
+		Width: 100%;
 		Height: 100%;
 		padding: 0;
-		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.filter{
-		width: 47%;
+		width: 45%;
 		justify-content: left;
 		align-items: center;
-		margin-bottom: 5%;
+		margin: 1%;
 	}
 
 	.filter:hover{
@@ -894,6 +898,26 @@ footer {
 		font-size: 13px;
 	}
 	
+	#info {
+		position: relative;
+		width: 95%;
+		display: flex;
+		align-items: center;
+		margin-top: 10.5px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	#info p {
+		flex-wrap: wrap;
+		margin-right: 15px;
+	}
+
+	.info {
+		width: 11px;
+		height: 11px;
+		display: flex;
+	}
 
 	#hebergements{
 		position: relative;
@@ -903,6 +927,8 @@ footer {
 		justify-content: center;
 		align-items: center;
 		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	section.hebergement{
@@ -937,10 +963,10 @@ footer {
 	  }
 	
 	h5{
-		width: 100%;
-		margin:0px;
+		width:95%;
+		margin-left:15px;
 		flex-direction: row;
-		padding-top: 5%;
+		padding-top: 15px;
 	  }
 	
 	.card-text-hebergement{
@@ -1027,7 +1053,7 @@ footer {
 		display: none;
 	}
 
-	#activites{
+	aside#activites{
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: column;
@@ -1037,6 +1063,8 @@ footer {
 		align-items: center;
 		border-radius: 0%;
 		background-color: #FFFFFF;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.contentCards{
