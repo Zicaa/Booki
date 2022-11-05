@@ -1116,4 +1116,12 @@ footer {
     	margin-right: auto;
 	}
 
+	.footerColumn ul, .footerColumn li {
+		padding-bottom: 15px;
+		line-height: 19px;
+	}
+
+	.footerText{
+		padding : 30px 0px 30px 0px;
+	}
 }
