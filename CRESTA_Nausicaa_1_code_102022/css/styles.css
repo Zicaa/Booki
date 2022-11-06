@@ -13,16 +13,11 @@
 
 body {
 	max-width: 1400px;
-	/*height: 1884px;*/
 	font-family: 'Raleway', sans-serif;
 	justify-content: center;
 	cursor: default;
 	margin:0; /* Remove body margins */
 }
-
-/**************************************************************************************************************************************/
-/*************************************************************header********************************************************************/
-/**************************************************************************************************************************************/
 
 #container {
 	width: 100%;
@@ -30,6 +25,10 @@ body {
 	flex-wrap: wrap;
 	position: relative;
 }
+
+/**************************************************************************************************************************************/
+/*************************************************************header********************************************************************/
+/**************************************************************************************************************************************/
 
 header {
 	padding: 4% 4% 4% 4%;
@@ -39,6 +38,7 @@ header {
 }
 
 .logo {
+	position: relative;
 	width: 61.09px;
 	height: 19px;
 }
@@ -610,6 +610,10 @@ footer {
 	padding: 0px;
 }
 
+/**************************************************************************************************************************************/
+/*************************************************************responsive********************************************************************/
+/**************************************************************************************************************************************/
+
 @media only screen and (max-width: 1024px) and (min-width: 768px){
 
 	.filters {
@@ -668,12 +672,8 @@ footer {
 	  }
 
 	.galerie{
-		display: flex;
-		width: 100%;
 		height: 144px;
 		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
 	}
 
 	.contentCards{
@@ -682,32 +682,25 @@ footer {
 	}
 
 	aside {
-		position: relative;
-		margin-top: 60px;
 		width: 100%;
 	}
 
 	.card-activite{
-		Width: 22%;
 		Height: 267px;
 	  }
 	
 	.card-activite-img{
-		Width: 100%;
 		Height: 211px;
 	  }
 
 	.card-text-activite{
 		height:50px;
 		line-height: 25px;
-		height: 50px;
 		width: 80%;
 	}
 
 	#footerContent {
-		display: flex;
-		justify-content: space-between;
-		padding: 45px 135px 0px 70px;
+		padding-right: 135px;
 	
 	}
 }
@@ -719,11 +712,6 @@ footer {
 		justify-content: center;
 		margin-left: auto;
 		margin-right: auto;
-		width: 100%;
-	}
-
-	body{
-		margin: 0;
 	}
 
 	header{
@@ -737,9 +725,6 @@ footer {
 	}
 
 	.logo {
-		position: relative;
-		width: 61.09px;
-		height: 19px;
 		padding: 5%;
 	}
 
@@ -756,21 +741,14 @@ footer {
 		justify-content: space-between;
 	}
 
-	.heb{
+	.heb, .act{
 		justify-content: center;
 		display: flex;
 		width: 50%;
 		text-align: center;
 	}
 
-	.act{
-		justify-content: center;
-		display: flex;
-		width: 50%;
-		text-align: center;
-	}
-
-	.heb:hover{
+	.heb:hover, .act:hover{
 		display: flex;
 		border-top: none;
 		width: 50%;
@@ -778,16 +756,8 @@ footer {
 		padding-bottom: 5%;
 	}
 
-	.act:hover{
-		display: flex;
-		border-top: none;
-		width: 50%;
-		border-bottom: 3px solid #0065FC;
-		padding-bottom: 1%;
-	}
-
 	a:hover{
-		color: #0065FC;
+		color: #0065FC
 	}
 
 	#titles{
@@ -795,8 +765,6 @@ footer {
 		margin-left: auto;
 		margin-right: auto;
 		flex-direction: row;
-		display: flex;
-		flex-wrap: wrap;
 		justify-content: center;
 	}
 
@@ -814,7 +782,6 @@ footer {
 	main{
 		flex-direction: column;
 		width: 100%;
-		position: relative;
 		justify-content: center;
 		margin-left: auto;
 		margin-right: auto;
@@ -822,7 +789,6 @@ footer {
 
 	form {
 		display: flex;
-		position: relative;
 		flex-wrap: wrap;
 		justify-content: center;
 		width: 97%;
@@ -831,7 +797,6 @@ footer {
 	}
 
 	#searchbar{
-		display: flex;
 		width: 95%;
 		height: auto;
 		text-align: end;
@@ -841,7 +806,6 @@ footer {
 	.input-icone {
 		Width: 13%;
 		height: auto;
-		display: flex;
 		position: relative;
 	}
 	
@@ -869,7 +833,6 @@ footer {
 	}
 
 	article.filters {
-		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
 		justify-content: center;
@@ -884,7 +847,6 @@ footer {
 	.filter{
 		width: 45%;
 		justify-content: left;
-		align-items: center;
 		margin: 1%;
 	}
 
@@ -898,10 +860,7 @@ footer {
 	}
 	
 	#info {
-		position: relative;
 		width: 95%;
-		display: flex;
-		align-items: center;
 		margin-top: 10.5px;
 		margin-left: 15px;
 		margin-right: 15px;
@@ -919,20 +878,14 @@ footer {
 	}
 
 	#hebergements{
-		position: relative;
-		display: flex;
-		flex-wrap: wrap;
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
-		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	
 	section.hebergement{
-		display: flex;
-		flex-wrap: wrap;
 		flex-direction: column;
 		width: 100%;
 		height: 100%;
@@ -952,13 +905,7 @@ footer {
 	  }
 	
 	.card-hebergement-img{
-		background-size: cover;
-		object-fit: cover;
-		background-repeat: no-repeat;
-		border: 5px solid #FFFFFF;
-		border-radius: 20px 20px 0px 0px;
 		Width: 97%;
-		Height: 119px;
 	  }
 	
 	h5{
@@ -967,35 +914,9 @@ footer {
 		flex-direction: row;
 		padding-top: 15px;
 	  }
-	
-	.card-text-hebergement{
-		width: 100%;
-		padding-left: 16px;
-		line-height: 0.5em;
-	}
-	
-	.subtitle{
-		margin: 0px;
-		font-size: 16px;
-		line-height: 14px;
-	  }
-	
-	.description{
-		margin: 0px;
-		padding: 0px;
-		font-size: 14px;
-		line-height: 16px;
-		margin-block: 0.5em;
-	  }
-	
-	.bluestar{
-		display: flex;
-	}
 
 	section.populaire{
-		display: flex;
 		flex-wrap: wrap;
-		flex-direction: column;
 		width: 100%;
 		height: 100%;
 		justify-content: center;
@@ -1006,13 +927,11 @@ footer {
 
 	.card-populaire{
 		Width: 334px;
-		Height: 144px;
 		margin: 10px;
 	}
 
 	.card-populaire-img{
 		Width: 137px;
-		Height: 134px;
 	  }
 
 	.card-text-populaire{
@@ -1033,19 +952,14 @@ footer {
 	}
 	
 	.description{
-		margin: 0px;
 		font-size: 13px;
 		width: 130px;
 	  }
 
 	.galerie{
-		display: flex;
-		width: 100%;
 		height: 100%;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: center;
 		padding-bottom: 5%;
+		flex-direction: column;
 	}
 
 	p.showMore{
@@ -1067,10 +981,7 @@ footer {
 	}
 
 	.contentCards{
-		display: flex;
-		flex-wrap: wrap;
 		flex-direction: column;
-		width: 100%;
 		height: 100%;
 		justify-content: center;
 		align-items: center;
@@ -1096,7 +1007,6 @@ footer {
 	}
 
 	footer{
-		width:100%;
 		height:auto;
 		flex-direction: column;
 		justify-content: center;
@@ -1104,7 +1014,6 @@ footer {
 	}
 
 	#footerContent {
-		display: flex;
 		flex-direction: column;
 		width: 330px;
 		height: 100%;
