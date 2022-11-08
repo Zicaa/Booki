@@ -13,7 +13,7 @@
 
 body {
 	max-width: 1400px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'raleway';
 	justify-content: center;
 	cursor: default;
 	margin:0; /* Remove body margins */
@@ -104,7 +104,6 @@ h1{
 	margin: 0px;
 	font-style: normal;
 	color: #000000;
-	font-family: 'Raleway';
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 26px;
@@ -153,7 +152,6 @@ input::placeholder {
 	padding: 14px 16px 14px 16px;
 	gap: 10px;
 	height: 49px;
-	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
@@ -172,7 +170,6 @@ input::placeholder {
 	height: 49px;
 	background: #FFFFFF;
 	border: 1px solid #F2F2F2;
-	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
@@ -191,7 +188,6 @@ button{
 	background: #0065FC;
 	border: 1px solid #0065FC;
 	border-radius: 0px 15px 15px 0px;
-	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
@@ -209,7 +205,6 @@ button{
 /**************************************************************************************************************************************/
 
 h3{
-	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
@@ -219,7 +214,6 @@ h3{
 }
 
 h4{
-	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 17px;
@@ -250,7 +244,7 @@ article{
 	align-items: center;
 	padding-top: 27.5px;
 	padding-bottom: 27.5px;
-    font: 1rem 'Raleway', sans-serif;
+    font: 1rem;
 	position: relative;
 	left: 7px;
 	right: 0%;
@@ -294,7 +288,6 @@ article{
 	padding-left: 11px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -377,7 +370,6 @@ section{
 h5{
 	width: 100%;
 	margin:0px;
-	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 22px;
@@ -393,7 +385,6 @@ h5{
 
 .subtitle{
 	margin: 0px;
-	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
@@ -403,7 +394,6 @@ h5{
 .description{
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -496,7 +486,6 @@ h5{
 }
 
 .showMore{
-	font-family: 'Raleway';
 	margin: 0%;
 	font-style: normal;
 	font-weight: 700;
@@ -558,7 +547,6 @@ aside{
   }
 
 h6{
-	font-family: 'Raleway';
 	margin: 0px;
 	text-align: left;
 	font-style: normal;
@@ -587,7 +575,6 @@ footer {
 }
 
 .footerText{
-	font-family: 'Raleway';
 	margin: 0%;
 	font-style: normal;
 	font-weight: 700;
@@ -599,7 +586,6 @@ footer {
 }
 
 .footerColumn ul, .footerColumn li {
-	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -614,7 +600,7 @@ footer {
 /*************************************************************responsive********************************************************************/
 /**************************************************************************************************************************************/
 
-@media only screen and (max-width: 992px) and (min-width: 768px){
+@media only screen and (max-width: 1024px) and (min-width: 768px){
 
 	.filters {
 		width: 100%;
