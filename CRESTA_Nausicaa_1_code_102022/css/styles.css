@@ -346,14 +346,14 @@ section{
 }
 
 .card-hebergement{
+	height: 199px;
 	background: #FFFFFF;
     border-radius: 20px;
-	width: 100%;
-    Height: 199px;
-	margin-bottom: 10px;
+	margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+	border: 5px solid #FFFFFF;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
     transition: 0.3s;
   }
@@ -362,9 +362,8 @@ section{
 	background-size: cover;
 	object-fit: cover;
 	background-repeat: no-repeat;
-	border: 5px solid #FFFFFF;
 	border-radius: 20px 20px 0px 0px;
-	width: 95%;
+	width: 100%;
 	Height: 119px;
   }
 
@@ -382,9 +381,10 @@ h5{
 	margin-bottom: 10px;
   }
 
-.card-text-hebergement{
-	padding-left: 16px;
+.card-text-hebergement {
 	line-height: 0.5em;
+	padding-top: 5%;
+	padding-left: 5%;
 }
 
 .subtitle{
@@ -480,6 +480,10 @@ h5{
     height: auto
 }
 
+section.populaire a{
+	width: 100%;
+}
+
 .bluestar-pop{
 	font-size: 12px;
 	color: #0065FC;
@@ -525,7 +529,7 @@ aside{
 .card-activite{
 	background: #FFFFFF;
 	border-radius: 20px;
-	Width: 22%;
+	Width: 95%;
 	Height: 445px;
 	font-weight: 500;
 	font-size: 16px;
@@ -549,6 +553,10 @@ aside{
 	vertical-align:middle;
 	line-height: 50px;
   }
+
+aside#activites a{
+	width: 25%;
+}
 
 h6{
 	margin: 0px;
@@ -604,10 +612,15 @@ footer {
 /*************************************************************responsive********************************************************************/
 /**************************************************************************************************************************************/
 
-@media only screen and (max-width: 1024px) and (min-width: 768px){
+@media only screen and (max-width: 992px) and (min-width: 768px){
 
 	.filters {
 		width: 100%;
+		padding: 20px 0px;
+	}
+
+	.filter {
+		width: 20%;
 	}
 
     #hebergements{
@@ -626,7 +639,12 @@ footer {
 	.card-hebergement{
 		Width: 100%;
 		Height: 199px;
-	  }
+		margin: 10px auto;
+	}
+
+	section.hebergement a {
+		width: 30%;
+	}
 	
 	section.populaire{
 		width: 100%;
@@ -643,6 +661,10 @@ footer {
 		width: 40%;
 		height: 119px;
 		padding: 12px 3px 3px 5px;
+	}
+
+	section.populaire a {
+		width: 30%;
 	}
 	
 	.subtitle{
@@ -664,6 +686,7 @@ footer {
 	.galerie{
 		height: 144px;
 		flex-direction: row;
+		padding-top: 0px;
 	}
 
 	.contentCards{
@@ -761,14 +784,14 @@ footer {
 	h1{
 		width: 100%;
 		height: 100%;
-		line-height: 90%;
-		padding: 10px;
+		line-height: 100%;
+		padding: 0 20px;
 	}
 
 	h2{
-		line-height: 90%;
+		line-height: 100%;
 		height: 100%;
-		padding: 10px;
+		padding: 0 20px;
 		}
 	
 	main{
@@ -788,7 +811,7 @@ footer {
 	}
 
 	#searchbar{
-		width: 100%;
+		width: 95%;
 		height: auto;
 		text-align: end;
 		justify-content: center;
@@ -821,7 +844,7 @@ footer {
 	h3{
 		width: 100%;
 		text-align: left;
-		padding: 10px;
+		padding: 20px;
 	}
 
 	article.filters {
@@ -892,7 +915,7 @@ footer {
 		align-items: center;
 		border-radius: 0%;
 		background-color: #FFFFFF;
-		padding: 10px;
+		padding: 20px;
 	}
 	
 	.card-hebergement{
@@ -905,6 +928,11 @@ footer {
 		Width: 100%;
 		border: 0;
 	  }
+
+	.card-text-hebergement{
+		padding-top: 2%;
+		padding-left: 2%;
+	}
 
 	section.hebergement a{
 		width: 100%;
@@ -923,14 +951,22 @@ footer {
 		justify-content: center;
 		align-items: center;
 		border-radius: 0%;
-		padding: 10px;
+		padding: 20px;
+	}
+
+	section.populaire a{
+		width: 100%;
 	}
 
 	.card-populaire{
 		Width: 100%;
-		margin: 10px;
+		margin: 10px auto;
 	}
 	
+	.card-text-populaire{
+		padding: 10px 0px 10px 0px;
+	}
+
 	.subtitle{
 		font-size: 14px;
 		flex: none;
@@ -967,7 +1003,11 @@ footer {
 		background-color: #FFFFFF;
 		margin-left: auto;
 		margin-right: auto;
-		padding: 10px;
+		padding: 20px;
+	}
+
+	aside#activites a{
+		width: 100%;
 	}
 
 	.contentCards{
