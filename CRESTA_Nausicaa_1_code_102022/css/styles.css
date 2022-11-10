@@ -750,7 +750,7 @@ footer {
 		width: 100%;
 		height: 60px;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 
 	.heb, .act{
