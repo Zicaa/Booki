@@ -1,1 +1,2 @@
-# P2_Transformez_une_maquette_en_site_web_avec_HTML_CSS_Cresta_Nausicaa
+# Projet 1: Transformer une maquette en site web avec HTML CSS
+Réaliser une page web responsive pour une agence de voyage.
