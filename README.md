@@ -1,1 +1,2 @@
-# P2_Transformez_une_maquette_en_site_web_avec_HTML_CSS_Cresta_Nausicaa
+# Projet 2 : Transformer une maquette en site web avec HTML CSS
+Réalisation de la page d'accueil du site Booki, une agence de voyage. Site responsive : formats desktop, tablettes et mobiles.
